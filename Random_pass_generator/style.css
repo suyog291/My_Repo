@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(18, 18, 75);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bar {
+    display: flex;
+   margin-top: 30vh;
+   margin-left: 10vw;
+
+}
+#bar h3{
+    color:whitesmoke;
+    font-size:25px ;
+}
+#colorchng{
+ margin-left: 10vw;
+ width: 220px;
+}
+#colorchng h3{
+    opacity: .7;
+    color: rgb(13, 146, 13) ;
+    font-size: 25px;
+    border-bottom: 3px solid green;
+}
+#passdispbox{
+    margin-left: 9vw;
+    margin-top: 20px;
+}
+#passdispbox input{
+   height: 40px;
+   width: 330px;
+   border-radius: 7%;
+}
+#passdispbox #password i{
+  width: 30px;
+  
+}
+
+#clickbtn #btn{
+    margin-left: 10vw;
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    border-radius:5%;
+    color: white;
+    opacity: .7;
+    background-color: rgb(13, 146, 13);
+}
+
